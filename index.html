@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <body>
+    <meta charset="UTF-8">
+    <title>Playlist según tu estado de ánimo</title><body>
+
+    <div class="intro">
+        <h1>🎵 Nuestro Proyecto de Playlists 🎵</h1>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+        <p>
+            Nos gustaría compartirles este proyecto en forma de playlists.
+            Son algunas de las canciones que a nosotros nos acompañan en distintos momentos
+            y que nos ayudan según cómo nos sentimos.
+        </p>
+
+        <p>
+            Esperamos que también puedan servirles a ustedes. 
+            Y si no es así, nos encantaría que puedan utilizarlas como base para agregar
+            canciones propias que los representen, o incluso fusionarlas con sus gustos
+            y emociones.
+        </p>
+
+        <p>
+            Porque la música no solo se escucha… también se siente.
+        </p>
+    </div>
+<head>
+  <meta charset="UTF-8">
+  <title>Playlist según tu estado de ánimo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<div class="pantalla-bienvenida" id="bienvenida">
+  <h1>🎧 Bienvenido/a</h1>
+  <p>Antes de entrar, dime tu nombre:</p>
+  <input type="text" id="nombreInput" placeholder="Escribe tu nombre">
+  <button onclick="entrar()">Entrar</button>
+</div>
+
+<div class="container">
+  <h1 id="saludoPersonalizado"></h1>
+
+  <p>¿Cómo te sentís hoy?</p>
+
+  <select id="estado">
+    <option value="">Seleccionar...</option>
+    <option value="triste">Triste</option>
+    <option value="motivacional">Desmotivado/a</option>
+    <option value="animo">Desanimado/a</option>
+    <option value="alegre">Alegre</option>
+    <option value="relajado">Relajado/a</option>
+  </select>
+
+  <button onclick="recomendar()">Ir a mi playlist</button>
+</div>
+
+<script src="script.js"></script>
+    <div class="frase-final">
+        Porque todos atravesamos distintos momentos, y en cada uno de ellos
+        la música puede convertirse en refugio, impulso o compañía.
+        Si estas playlists logran conectar con vos, entonces este proyecto
+        habrá cumplido su verdadera misión.
+    </div>
+
+    <footer>
+        Proyecto académico – Creado para compartir emociones a través de la música.
+    </footer>
+    </body>
+</html>
