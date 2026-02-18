@@ -18,20 +18,8 @@ function recomendar() {
   if (estado === "") {
     alert("Seleccioná un estado de ánimo.");
     return;
-  }
-  document.body.classList.remove(
-    "fondo-triste",
-    "fondo-motivacional",
-    "fondo-animo",
-    "fondo-alegre",
-    "fondo-relajado"
-  );
-
-  // 🔥 Aplicar fondo según emoción
-  document.body.classList.add("fondo-" + estado);
-
   let link = "";
-
+  }
   switch (estado) {
     case "triste":
       link = "https://open.spotify.com/playlist/4zFunMx93s5cFXl9wTcvAc";

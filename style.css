@@ -9,6 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-attachment: fixed;
   background-color: #121212;
   background-image: url("bienvenida.jpg.jpeg");
   background-size: cover;
