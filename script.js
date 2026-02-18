@@ -19,6 +19,16 @@ function recomendar() {
     alert("Seleccioná un estado de ánimo.");
     return;
   }
+  document.body.classList.remove(
+    "fondo-triste",
+    "fondo-motivacional",
+    "fondo-animo",
+    "fondo-alegre",
+    "fondo-relajado"
+  );
+
+  // 🔥 Aplicar fondo según emoción
+  document.body.classList.add("fondo-" + estado);
 
   let link = "";
 
